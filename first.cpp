@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
-	std::cout << "Hello world!";
-	std::cout << "People talk and cats are listen.";
+	int hello = 0;
+	std::cout << "Hello world!" << '\n';
+	std::cout << "People talk and cats are listen." << '\n';
+	std::cin >> hello;
 }
